@@ -65,9 +65,9 @@ function ComparisonSlider() {
       onMouseDown={() => { dragging.current = true; }}
       onTouchStart={() => { dragging.current = true; }}
     >
-      <img src="/models/sienna.png" alt="אחרי" className="absolute inset-0 w-full h-full object-cover" />
-      <div className="absolute inset-0 bg-white" style={{ clipPath: `inset(0 0 0 ${100 - position}%)` }}>
-        <img src="/models/kai.png" alt="לפני" className="absolute inset-0 w-full h-full object-cover" />
+      <img src="/gallery/brands-after.png" alt="אחרי" className="absolute inset-0 w-full h-full object-cover" />
+      <div className="absolute inset-0" style={{ clipPath: `inset(0 0 0 ${100 - position}%)` }}>
+        <img src="/gallery/brands-before.png" alt="לפני" className="absolute inset-0 w-full h-full object-cover" />
       </div>
       <div className="absolute top-0 bottom-0 w-[2px] bg-white/90 z-10" style={{ right: `${position}%` }}>
         <div className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 right-0 w-11 h-11 rounded-full bg-white shadow-xl flex items-center justify-center">
