@@ -139,16 +139,9 @@ export default function BrandsPage() {
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
-                className="relative aspect-[3/4] md:aspect-[2/3] rounded-3xl overflow-hidden shadow-2xl ring-1 ring-black/5 max-h-[50vh] md:max-h-none"
+                className="max-h-[50vh] md:max-h-none"
               >
-                <Image
-                  src="/models/hero-male.png"
-                  alt="דוגמן AI"
-                  fill
-                  className="object-cover object-center"
-                  priority
-                  sizes="(max-width: 1024px) 90vw, 45vw"
-                />
+                <ComparisonSlider />
               </motion.div>
             </div>
           </div>
