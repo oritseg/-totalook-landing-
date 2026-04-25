@@ -191,7 +191,7 @@ export default function HomePage() {
       <main>
         {/* ── 1. Hero ── */}
         <section className="bg-cream" style={{ paddingTop: '9rem', paddingBottom: '3rem' }}>
-          <div className="max-w-6xl mx-auto px-6">
+          <div className="max-w-6xl mx-auto px-8 sm:px-10">
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
               <motion.div initial="hidden" animate="visible" variants={stagger}>
                 <motion.h1
