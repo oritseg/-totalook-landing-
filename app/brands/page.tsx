@@ -155,7 +155,7 @@ export default function BrandsPage() {
         </section>
 
         {/* ── Trust Bar ── */}
-        <section className="py-16 md:py-20 bg-ink text-white">
+        <section className="py-20 md:py-28 bg-ink text-white">
           <div className="max-w-6xl mx-auto px-8 sm:px-10">
             <motion.h2
               initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0 }} variants={fadeIn}
