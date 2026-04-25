@@ -224,16 +224,9 @@ export default function HomePage() {
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
-                className="relative aspect-[3/4] md:aspect-[2/3] rounded-3xl overflow-hidden shadow-2xl ring-1 ring-black/5 max-h-[50vh] md:max-h-none"
+                className="max-h-[50vh] md:max-h-none"
               >
-                <Image
-                  src="/models/modest-woman.jpg"
-                  alt="דוגמנית AI בשמלה צנועה"
-                  fill
-                  className="object-cover object-center"
-                  priority
-                  sizes="(max-width: 1024px) 90vw, 45vw"
-                />
+                <ComparisonSlider />
               </motion.div>
             </div>
           </div>
@@ -327,40 +320,6 @@ export default function HomePage() {
                   </p>
                 </motion.div>
               </div>
-            </motion.div>
-          </div>
-        </section>
-
-        <div className="h-16 md:h-24 bg-cream" />
-
-        {/* ── 4. Before / After — Interactive Slider ── */}
-        <section className="py-20 md:py-28 bg-ink/[0.03]">
-          <div className="max-w-6xl mx-auto px-6">
-            <motion.h2
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0 }}
-              variants={fadeIn}
-              className="text-3xl md:text-4xl font-bold text-ink text-center mb-4"
-            >
-              לפני ואחרי
-            </motion.h2>
-            <motion.p
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0 }}
-              variants={fadeIn}
-              className="text-base text-ink-muted text-center mb-14"
-            >
-              גררו את הידית כדי לראות את ההבדל
-            </motion.p>
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0 }}
-              variants={fadeIn}
-            >
-              <ComparisonSlider />
             </motion.div>
           </div>
         </section>
