@@ -234,7 +234,7 @@ export default function BrandsPage() {
             </motion.p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
               {[
-                { src: "/models/sienna.png", alt: "Sienna" },
+                { src: "/models/astrid.png", alt: "Astrid" },
                 { src: "/models/model-sitting.png", alt: "דוגמנית יושבת" },
                 { src: "/models/idris.png", alt: "Idris" },
                 { src: "/models/valentina.png", alt: "Valentina" },
