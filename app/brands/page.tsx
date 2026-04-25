@@ -221,25 +221,6 @@ export default function BrandsPage() {
 
         <div className="h-16 md:h-24 bg-cream" />
 
-        {/* ── Before/After ── */}
-        <section className="py-20 md:py-28" style={{ backgroundColor: 'rgba(26,26,26,0.03)' }}>
-          <div className="max-w-6xl mx-auto px-8 sm:px-10">
-            <motion.h2 initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0 }} variants={fadeIn}
-              className="text-3xl md:text-4xl font-bold text-ink text-center mb-4">
-              לפני ואחרי
-            </motion.h2>
-            <motion.p initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0 }} variants={fadeIn}
-              className="text-base text-ink-muted text-center mb-14">
-              גררו את הידית כדי לראות את ההבדל
-            </motion.p>
-            <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0 }} variants={fadeIn}>
-              <ComparisonSlider />
-            </motion.div>
-          </div>
-        </section>
-
-        <div className="h-16 md:h-24 bg-cream" />
-
         {/* ── Model Gallery ── */}
         <section className="py-20 md:py-28 bg-cream">
           <div className="max-w-6xl mx-auto px-8 sm:px-10">
