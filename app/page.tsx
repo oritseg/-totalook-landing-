@@ -190,7 +190,7 @@ export default function HomePage() {
 
       <main>
         {/* ── 1. Hero ── */}
-        <section className="pt-28 pb-12 md:pt-40 md:pb-40 bg-cream">
+        <section className="bg-cream" style={{ paddingTop: '9rem', paddingBottom: '3rem' }}>
           <div className="max-w-6xl mx-auto px-6">
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
               <motion.div initial="hidden" animate="visible" variants={stagger}>
