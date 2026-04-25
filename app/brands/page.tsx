@@ -226,7 +226,7 @@ export default function BrandsPage() {
           <div className="max-w-6xl mx-auto px-8 sm:px-10">
             <motion.h2 initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0 }} variants={fadeIn}
               className="text-3xl md:text-4xl font-bold text-ink text-center mb-6">
-              דוגמאות לדוגמניות AI
+              נבחרת הפרזנטורים שלכם: התאמה מדויקת לכל קהל יעד
             </motion.h2>
             <motion.p initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0 }} variants={fadeIn}
               className="text-base text-ink-light text-center mb-14 max-w-2xl mx-auto leading-relaxed">
