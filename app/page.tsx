@@ -388,11 +388,10 @@ export default function HomePage() {
             >
               המערכת שלנו רותמת את עוצמת הבינה המלאכותית כדי לייצר שפה חזותית עקבית לכל קהל יעד, בכל גיל ובכל לוקיישן שתבחרו.
             </motion.p>
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {[
                 { src: "/models/modest-family.jpg", alt: "הפקה משפחתית" },
                 { src: "/models/modest-boy.jpg", alt: "אופנת ילדים עם כיפה" },
-                { src: "/gallery/after-1.png", alt: "שמלת ערב צנועה" },
               ].map((img, i) => (
                 <motion.div
                   key={i}
