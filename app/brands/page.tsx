@@ -226,11 +226,11 @@ export default function BrandsPage() {
           <div className="max-w-6xl mx-auto px-8 sm:px-10">
             <motion.h2 initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0 }} variants={fadeIn}
               className="text-3xl md:text-4xl font-bold text-ink text-center mb-6">
-              הדוגמניות שלנו
+              דוגמאות לדוגמניות AI
             </motion.h2>
             <motion.p initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0 }} variants={fadeIn}
               className="text-base text-ink-light text-center mb-14 max-w-2xl mx-auto leading-relaxed">
-              מגוון דוגמניות AI ברמה הגבוהה ביותר — לכל גיל, מראה וסגנון. אתם בוחרים את הצוות שילווה את המותג שלכם.
+              אלו רק דוגמאות — אנחנו יוצרים כל דוגמן ודוגמנית בהתאמה מלאה למותג שלכם: גיל, מראה, סגנון, כל מה שתבקשו.
             </motion.p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
               {[
