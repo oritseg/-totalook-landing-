@@ -190,13 +190,13 @@ export default function HomePage() {
 
       <main>
         {/* ── 1. Hero ── */}
-        <section className="bg-cream" style={{ paddingTop: '9rem', paddingBottom: '3rem' }}>
+        <section className="bg-cream" style={{ paddingTop: '10rem', paddingBottom: '3rem' }}>
           <div className="max-w-6xl mx-auto px-8 sm:px-10">
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
               <motion.div initial="hidden" animate="visible" variants={stagger}>
                 <motion.h1
                   variants={fadeIn}
-                  className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-ink leading-[1.1] mb-6"
+                  className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-ink leading-[1.2] mb-8"
                 >
                   אופנה צנועה בסטנדרט של מגזין: הפקות יוקרה ללא ימי צילום
                 </motion.h1>
