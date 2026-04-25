@@ -70,9 +70,9 @@ function ComparisonSlider() {
       <img src="/gallery/after-1.png" alt="אחרי" className="absolute inset-0 w-full h-full object-cover" />
 
       {/* Before — clipped (RTL: clip from left) */}
-      <div className="absolute inset-0" style={{ clipPath: `inset(0 0 0 ${100 - position}%)` }}>
+      <div className="absolute inset-0 bg-white" style={{ clipPath: `inset(0 0 0 ${100 - position}%)` }}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/gallery/before-1.jpg" alt="לפני" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/gallery/before-1.jpg" alt="לפני" className="absolute inset-0 w-full h-full object-contain" />
       </div>
 
       {/* Drag handle */}
