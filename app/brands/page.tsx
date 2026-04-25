@@ -65,9 +65,9 @@ function ComparisonSlider() {
       onMouseDown={() => { dragging.current = true; }}
       onTouchStart={() => { dragging.current = true; }}
     >
-      <img src="/gallery/after-1.png" alt="אחרי" className="absolute inset-0 w-full h-full object-cover" />
+      <img src="/models/sienna.png" alt="אחרי" className="absolute inset-0 w-full h-full object-cover" />
       <div className="absolute inset-0 bg-white" style={{ clipPath: `inset(0 0 0 ${100 - position}%)` }}>
-        <img src="/gallery/before-1.jpg" alt="לפני" className="absolute inset-0 w-full h-full object-contain" />
+        <img src="/models/kai.png" alt="לפני" className="absolute inset-0 w-full h-full object-cover" />
       </div>
       <div className="absolute top-0 bottom-0 w-[2px] bg-white/90 z-10" style={{ right: `${position}%` }}>
         <div className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 right-0 w-11 h-11 rounded-full bg-white shadow-xl flex items-center justify-center">
@@ -142,8 +142,8 @@ export default function BrandsPage() {
                 className="relative aspect-[3/4] md:aspect-[2/3] rounded-3xl overflow-hidden shadow-2xl ring-1 ring-black/5 max-h-[50vh] md:max-h-none"
               >
                 <Image
-                  src="/models/sienna.png"
-                  alt="דוגמנית AI — Sienna"
+                  src="/models/hero-male.png"
+                  alt="דוגמן AI"
                   fill
                   className="object-cover object-center"
                   priority
