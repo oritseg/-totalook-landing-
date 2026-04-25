@@ -61,3 +61,16 @@ h1, h2, h3 {
   overflow-wrap: anywhere;
   word-break: normal;
 }
+
+.brands-page,
+.brands-page h1,
+.brands-page h2,
+.brands-page h3,
+.brands-page p,
+.brands-page a,
+.brands-page span,
+.brands-page button,
+.brands-page input {
+  font-family: var(--font-heebo), sans-serif !important;
+  letter-spacing: 0;
+}
