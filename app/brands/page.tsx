@@ -235,11 +235,11 @@ export default function BrandsPage() {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
               {[
                 { src: "/models/sienna.png", alt: "Sienna" },
-                { src: "/models/astrid.png", alt: "Astrid" },
+                { src: "/models/model-sitting.png", alt: "דוגמנית יושבת" },
                 { src: "/models/idris.png", alt: "Idris" },
                 { src: "/models/valentina.png", alt: "Valentina" },
                 { src: "/models/kai.png", alt: "Kai" },
-                { src: "/models/eloise.png", alt: "Eloise" },
+                { src: "/models/model-couple.png", alt: "זוג במדבר" },
               ].map((img, i) => (
                 <motion.div key={i} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0 }} variants={fadeIn}
                   className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-lg ring-1 ring-black/5">
