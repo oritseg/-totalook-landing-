@@ -10,6 +10,7 @@ export const metadata: Metadata = {
       "תמונות מוצר וסרטוני אופנה באיכות מגזינית, על דוגמניות AI. קטלוגים שלמים בכמויות גדולות.",
     type: "website",
     locale: "he_IL",
+    images: [{ url: "/og-brands.png", width: 1200, height: 630 }],
   },
 };
 
