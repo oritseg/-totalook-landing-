@@ -190,19 +190,19 @@ export default function HomePage() {
 
       <main>
         {/* ── 1. Hero ── */}
-        <section className="pt-28 pb-32 md:pt-40 md:pb-40 bg-cream">
+        <section className="pt-20 pb-12 md:pt-40 md:pb-40 bg-cream">
           <div className="max-w-6xl mx-auto px-6">
-            <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
               <motion.div initial="hidden" animate="visible" variants={stagger}>
                 <motion.h1
                   variants={fadeIn}
-                  className="text-4xl sm:text-5xl md:text-6xl font-bold text-ink leading-[1.1] mb-8"
+                  className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-ink leading-[1.1] mb-6"
                 >
                   אופנה צנועה בסטנדרט של מגזין: הפקות יוקרה ללא ימי צילום
                 </motion.h1>
                 <motion.p
                   variants={fadeIn}
-                  className="text-lg md:text-xl text-ink-light leading-relaxed mb-10"
+                  className="text-base md:text-lg lg:text-xl text-ink-light leading-relaxed mb-8"
                 >
                   הכירו את הפלטפורמה של Totalook המשלבת בינה מלאכותית פורצת דרך עם דיוק אופנתי חסר פשרות. אנחנו מאפשרים לכם להפיק קטלוגים וסרטונים ברמה הגבוהה ביותר, במהירות ובאיכות מקסימלית.
                 </motion.p>
@@ -224,7 +224,7 @@ export default function HomePage() {
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
-                className="relative aspect-[2/3] rounded-3xl overflow-hidden shadow-2xl ring-1 ring-black/5 mt-8 lg:mt-0"
+                className="relative aspect-[3/4] md:aspect-[2/3] rounded-3xl overflow-hidden shadow-2xl ring-1 ring-black/5 max-h-[50vh] md:max-h-none"
               >
                 <Image
                   src="/models/modest-woman.jpg"
